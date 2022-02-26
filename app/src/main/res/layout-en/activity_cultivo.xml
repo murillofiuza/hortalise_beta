@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.fiuzasoft.fiuza.hortalise_beta.CultivoActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            tools:context="com.fiuzasoft.fiuza.hortalise_beta.CultivoActivity"
+            android:fitsSystemWindows="true"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context="com.fiuzasoft.fiuza.cultivos.CultivoActivity"
+            android:background="#ecffd8">
+
+
+
+
+
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="4dp"
+                        android:weightSum="1"
+                        android:background="#ecffd8"
+                        >
+
+
+
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/nav_abobora"
+                            android:onClick="abobora"
+                            android:background="#bfffe0">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="60dp"
+                                android:id="@+id/imageViewAbobora"
+                                android:src="@drawable/abobora" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Pumpkin"
+                                android:id="@+id/textViewAbobora"
+                                android:layout_gravity="center"
+                                android:textColor="#000000" />
+
+                            <ImageView
+                                android:layout_width="37dp"
+                                android:layout_height="match_parent"
+                                android:id="@+id/imageView11"
+                                android:layout_gravity="right|center_vertical"
+                                android:src="@drawable/ic_arrow_right"/>
+
+
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/nav_acelga"
+                            android:onClick="acelga"
+                            tools:openDrawer="start"
+                            android:background="#f6fef6">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="60dp"
+                                android:id="@+id/imageViewAcelga"
+                                android:layout_gravity="left|top"
+                                android:src="@drawable/acelga" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Chard"
+                                android:id="@+id/textViewAcelga"
+                                android:layout_gravity="center"
+                                android:textColor="#000000"/>
+
+                            <ImageView
+                                android:layout_width="37dp"
+                                android:layout_height="match_parent"
+                                android:id="@+id/imageView12"
+                                android:layout_gravity="right|center_vertical"
+                                android:src="@drawable/ic_arrow_right"/>
+
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/nav_alface"
+                            android:onClick="alface"
+                            android:background="#bfffe0">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="60dp"
+                                android:id="@+id/imageViewAlface"
+                                android:layout_gravity="left|top"
+                                android:src="@drawable/alface" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Lettuce"
+                                android:id="@+id/textViewAlface"
+                                android:layout_gravity="center"
+                                android:textColor="#000000"/>
+
+                            <ImageView
+                                android:layout_width="37dp"
+                                android:layout_height="match_parent"
+                                android:id="@+id/imageView13"
+                                android:layout_gravity="right|center_vertical"
+                                android:src="@drawable/ic_arrow_right"/>
+                        </FrameLayout>
+
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/nav_alho"
+                            android:onClick="garlic"
+                            android:background="#f6fef6">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="60dp"
+                                android:id="@+id/imageViewAlho"
+                                android:layout_gravity="left|top"
+                                android:src="@drawable/alho" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Garlic"
+                                android:id="@+id/textViewAlho"
+                                android:layout_gravity="center"
+                                android:textColor="#000000"/>
+
+                            <ImageView
+                                android:layout_width="37dp"
+                                android:layout_height="match_parent"
+                                android:id="@+id/imageView14"
+                                android:layout_gravity="right|center_vertical"
+                                android:src="@drawable/ic_arrow_right"/>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/nav_batata"
+                            android:background="#bfffe0"
+                            android:onClick="batata">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="60dp"
+                                android:id="@+id/imageViewBatata"
+                                android:layout_gravity="left|top"
+                                android:src="@drawable/batata" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Potato"
+                                android:id="@+id/textViewBatata"
+                                android:layout_gravity="center"
+                                android:textColor="#000000"/>
+
+                            <ImageView
+                                android:layout_width="37dp"
+                                android:layout_height="match_parent"
+                                android:id="@+id/imageView15"
+                                android:layout_gravity="right|center_vertical"
+                                android:src="@drawable/ic_arrow_right"/>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/nav_berinjela"
+                            android:onClick="berinjela"
+                            android:background="#f6fef6">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="60dp"
+                                android:id="@+id/imageViewBerinjela"
+                                android:layout_gravity="left|top"
+                                android:src="@drawable/berinjela" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Eggplant"
+                                android:id="@+id/textViewBerinjela"
+                                android:layout_gravity="center"
+                                android:textColor="#000000"/>
+
+                            <ImageView
+                                android:layout_width="37dp"
+                                android:layout_height="match_parent"
+                                android:id="@+id/imageView16"
+                                android:layout_gravity="right|center_vertical"
+                                android:src="@drawable/ic_arrow_right"/>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/nav_beterraba"
+                            android:background="#bfffe0"
+                            android:onClick="beterraba">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="60dp"
+                                android:id="@+id/imageViewBeterraba"
+                                android:layout_gravity="left|top"
+                                android:src="@drawable/beterraba" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Beet"
+                                android:id="@+id/textViewBeterraba"
+                                android:layout_gravity="center"
+                                android:textColor="#000000"/>
+
+                            <ImageView
+                                android:layout_width="37dp"
+                                android:layout_height="match_parent"
+                                android:id="@+id/imageView17"
+                                android:layout_gravity="right|center_vertical"
+                                android:src="@drawable/ic_arrow_right"/>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/nav_cebola"
+                            android:onClick="cebola"
+                            android:background="#f6fef6">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="60dp"
+                                android:id="@+id/imageViewCebola"
+                                android:layout_gravity="left|top"
+                                android:src="@drawable/cebola" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Onion"
+                                android:id="@+id/textViewCebola"
+                                android:layout_gravity="center"
+                                android:textColor="#000000"/>
+
+                            <ImageView
+                                android:layout_width="37dp"
+                                android:layout_height="match_parent"
+                                android:id="@+id/imageView18"
+                                android:layout_gravity="right|center_vertical"
+                                android:src="@drawable/ic_arrow_right"/>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/nav_cebolinha"
+                            android:background="#bfffe0"
+                            android:onClick="cebolinha">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="60dp"
+                                android:id="@+id/imageViewCebolinha"
+                                android:layout_gravity="left|top"
+                                android:src="@drawable/cebolinha" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Chive"
+                                android:id="@+id/textViewCebolinha"
+                                android:layout_gravity="center"
+                                android:textColor="#000000"/>
+
+                            <ImageView
+                                android:layout_width="37dp"
+                                android:layout_height="match_parent"
+                                android:id="@+id/imageView27"
+                                android:layout_gravity="right|center_vertical"
+                                android:src="@drawable/ic_arrow_right"/>
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/nav_cenoura"
+                            android:onClick="cenoura"
+                            android:background="#f6fef6">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="60dp"
+                                android:id="@+id/imageViewCenoura"
+                                android:layout_gravity="left|top"
+                                android:src="@drawable/cenoura" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Carrot"
+                                android:id="@+id/textViewCenoura"
+                                android:layout_gravity="center"
+                                android:textColor="#000000"/>
+
+                            <ImageView
+                                android:layout_width="37dp"
+                                android:layout_height="match_parent"
+                                android:id="@+id/imageViewA11"
+                                android:layout_gravity="right|center_vertical"
+                                android:src="@drawable/ic_arrow_right"/>
+                        </FrameLayout>
+
+
+                    </LinearLayout>
+
+
+
+            </RelativeLayout>
+
+
+
+
+    </android.support.v4.widget.NestedScrollView>
+    </android.support.design.widget.CoordinatorLayout>

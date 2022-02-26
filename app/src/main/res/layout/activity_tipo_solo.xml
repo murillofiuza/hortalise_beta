@@ -1,0 +1,319 @@
+
+
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="2600dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.fiuzasoft.fiuza.cultivos.TipoSoloActivity"
+    android:background="#CAFF95"
+    android:id="@+id/ac_tiposolo">
+
+    <Button
+        android:layout_width="65dp"
+        android:layout_height="35dp"
+        android:text="&lt; Voltar"
+        android:id="@+id/buttonVoltar"
+        android:layout_alignParentTop="true"
+        android:onClick="volta"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        android:background="#0f5409"
+        android:textColor="#FFFFFF"
+
+        />
+        <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView2" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="2600dp"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context="com.fiuzasoft.fiuza.cultivos.TipoSoloActivity"
+            android:background="#CAFF95" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:weightSum="1"
+                android:background="#FFFFFF" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="153dp"
+                    android:id="@+id/imageView4"
+                    android:src="@drawable/horta_vertical1"
+                    android:layout_weight="0.22"
+                    android:layout_margin="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99CC32" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="TIPOS DE SOLO"
+                    android:id="@+id/textViewBeterraba"
+                    android:textStyle="bold"
+                    android:textColor="#173A13"
+                    android:textSize="24dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="INFORMAÇÕES"
+                    android:textStyle="bold"
+                    android:textColor="#173A13"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="O solo têm uma grande importância para todos e em todos os sentidos pois é nele que se planta,  colhe, constrói e ainda retira organismos, partículas e substancias para a realização de pesquisas cientificas. O solo não se resume em apenas um tipo, mas sim são vários os tipos de solos que pode ser arenoso, argiloso, árido, entre outros. Conheçamos quais são os tipos de solos existentes:"
+                    android:id="@+id/textView41"
+                    android:textColor="#173A13"
+                    android:fontFamily="arial"
+                    android:layout_margin="6dp"
+                    android:gravity="fill"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#173A13" >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Arenoso"
+                    android:id="@+id/textView9Are"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="O solo arenoso se constitui de algumas substancias de areia em que se unem e muitas vezes se formam em cristais de quartzo ou também denominados de minerais primários, essa formação tem sua estrutura considerada de ótima infiltração o que dificulta a sobrevivência de plantas e/ou organismos."
+                    android:id="@+id/textView42are"
+                    android:textColor="#FFFFFF"
+                    android:layout_margin="6dp" />
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF" >
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="ARGILOSO"
+                    android:id="@+id/textView10"
+                    android:textStyle="bold"
+                    android:textColor="#173A13"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="O solo argiloso se compõe como o próprio nome informa de pequenas quantidades de argila em que se unem e conseguem abrigar grande quantidade de água, é formado de alumínio e ferro, e também não são de fácil habitação para as plantas."
+                    android:textColor="#173A13"
+                    android:id="@+id/textView43"
+                    android:layout_margin="6dp"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#173A13" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="ÁRIDO"
+                    android:id="@+id/textView12"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="O solo árido é assim classificado devido ser encontrados em áreas onde a ocorrência de chuva é baixa comparada a temperatura, ou seja, o solo árido não possui em suas composição nenhuma quantidade de água e quase sempre não se forma por completo."
+                    android:id="@+id/textView13"
+                    android:textColor="#FFFFFF"
+                    android:layout_margin="6dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Solo Siltosos"
+                    android:id="@+id/textView15sil"
+                    android:textStyle="bold"
+                    android:textColor="#173A13"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Os solos siltosos são assim classificados por em sua composição ser encontrado partículas em silte que possui grande facilidade de erosão."
+                    android:id="@+id/textView14sil"
+                    android:textColor="#173A13"
+                    android:layout_gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#173A13" >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Latossolo"
+                    android:id="@+id/textView9lat"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="O tipo latossolo é assim denominada por conter catins e argila em sua composição, são muito encontrados em terrenos sem grandes alterações na sua formação, ou seja, com poucas ondulações. Podendo ainda possuir cor vermelha, laranja e também amarela devido ao fato de que contem ferro e alumínio."
+                    android:id="@+id/textView42lat"
+                    android:textColor="#FFFFFF"
+                    android:layout_margin="6dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Solo Lixiviado"
+                    android:id="@+id/textView15"
+                    android:textStyle="bold"
+                    android:textColor="#173A13"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="O solo lixiviado é o tipo que contém em sua composição pouca ou nenhuma quantidade de nutrientes e sais minerais, isso acontece por serem localizados em áreas com grande ocorrência de chuvas que levam os nutrientes e deixa o solo totalmente desfavorecido de potássio e nitrogênio."
+                    android:id="@+id/textView14lix"
+                    android:textColor="#173A13"
+                    android:layout_gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#173A13" >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Solos negros das Planícies e das Pradarias"
+                    android:id="@+id/textView9"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="A classificação  dos solos negros das planícies e das padarias recebem essa denominação por conter em sua composição grandes quantidades de matéria orgânica."
+                    android:id="@+id/textView42"
+                    android:textColor="#FFFFFF"
+                    android:layout_margin="6dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+

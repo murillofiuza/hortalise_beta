@@ -1,0 +1,139 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="br.com.fiuzasoft.hortalise.LagartaTomateiro"
+    android:background="#CAFF95"
+    android:id="@+id/ac_lagarta">
+
+    <LinearLayout
+        android:paddingTop="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#0f5409" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView28"
+                android:src="@drawable/ic_arrow_back_24dp"
+                android:onClick="volta"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HORTA VERTICAL"
+                android:textColor="#FFFFFF"
+                android:textSize="19dp"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:background="#CAFF95" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:weightSum="1"
+                android:background="#FFFFFF" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="153dp"
+                    android:id="@+id/imageView4"
+                    android:src="@drawable/horta_vertical1"
+                    android:layout_weight="0.22"
+                    android:layout_margin="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99CC32" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Horta Vertical com Garrafa Pet"
+                    android:id="@+id/textViewAcelga"
+                    android:textStyle="bold"
+                    android:textColor="#173A13"
+                    android:textSize="24dp"
+                    android:layout_gravity="center" />
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imageView5"
+                    android:layout_gravity="center"
+                    android:src="@drawable/info"
+                    android:layout_marginTop="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="INFORMAÇÕES"
+                    android:textStyle="bold"
+                    android:textColor="#173A13"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="A horta vertical é uma excelente opção para o cultivo de hortaliças em casas, apartamentos ou locais com pequenos espaços. Esta técnica é uma alternativa sustentável que possibilita a reutilização de garrafas PET. A ideia é aproveitar esse material que se tornou abundante na nossa sociedade, para cultivar pequenas plantas, sem o uso de agrotóxicos, que podem ser empregadas na nossa alimentação de maneira prática e saudável."
+                    android:id="@+id/textView41"
+                    android:textColor="#173A13"
+                    android:fontFamily="arial"
+                    android:layout_margin="6dp"
+                    android:gravity="center"/>
+            </LinearLayout>
+</LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+
+

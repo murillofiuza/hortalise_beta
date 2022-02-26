@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.fiuzasoft.fiuza.hortalise_beta.ProjetoActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <!--android.support.v7.widget.Toolbar
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            tools:context="com.fiuzasoft.fiuza.hortalise_beta.ProjetoActivity"
+            android:fitsSystemWindows="true"/-->
+
+        <LinearLayout
+            android:paddingTop="18dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#0f5409" >
+
+            <LinearLayout
+                android:layout_width="36dp"
+                android:layout_height="26dp"
+                android:onClick="volta"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="3dp"
+                    android:paddingLeft="8dp"
+                    android:layout_width="39dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/imageView27"
+                    android:src="@drawable/ic_arrow_back_branco"
+                    android:background="#0f5409"
+                    android:onClick="volta"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LISTA DE PROJETOS"
+                    android:textColor="#FFFFFF"
+                    android:textSize="19dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ecffd8"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:paddingTop="2dp"
+            tools:context="com.fiuzasoft.fiuza.cultivos.ProjetoActivity">
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ecffd8"
+                android:orientation="vertical"
+                android:padding="4dp"
+                android:weightSum="1">
+
+                <FrameLayout
+                    android:id="@+id/nav_horta_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#bfffe0"
+                    android:onClick="hortaVerticalPet1">
+
+                    <ImageView
+                        android:id="@+id/imageViewHortaVertical"
+                        android:layout_width="70dp"
+                        android:layout_height="75dp"
+                        android:src="@drawable/sem" />
+
+                    <TextView
+                        android:id="@+id/textViewHortaVertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Horta Vertical"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="37dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right|center_vertical"
+                        android:src="@drawable/ic_arrow_right" />
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/nav_plantio_garrafa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f6fef6"
+                    android:onClick="#"
+                    tools:openDrawer="start">
+
+                    <TextView
+                        android:id="@+id/textViewGarrafaPet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Plantio em garrafa pet"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView19"
+                        android:layout_width="37dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right|center_vertical"
+                        android:src="@drawable/ic_arrow_right" />
+
+                    <ImageView
+                        android:id="@+id/imageViewPlantioGarrafaPet"
+                        android:layout_width="70dp"
+                        android:layout_height="75dp"
+                        android:layout_gravity="left|top"
+                        android:src="@drawable/sem" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/nav_horta_pneu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#bfffe0"
+                    android:onClick="#">
+
+                    <ImageView
+                        android:id="@+id/imageViewPlantioPneu"
+                        android:layout_width="70dp"
+                        android:layout_height="75dp"
+                        android:src="@drawable/sem" />
+
+                    <TextView
+                        android:id="@+id/textViewPlantioPneu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Horta em Pneu"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView12"
+                        android:layout_width="37dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right|center_vertical"
+                        android:src="@drawable/ic_arrow_right" />
+
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

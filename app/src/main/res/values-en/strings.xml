@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hortalise</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Exit</string>
+    <string name="title_activity_cultivo">Cultivation</string>
+    <string name="title_activity_praga">Pests</string>
+    <string name="title_activity_projeto">Project</string>
+
+    <string name="title_activity_abobora">Cultivation of Pumpkin</string>
+    <string name="title_activity_acelga">Cultivo de Acelga</string>
+    <string name="title_activity_alface">Cultivo de Alface</string>
+    <string name="title_activity_alho">Cultivo de Alho</string>
+    <string name="title_activity_batata">Cultivo de Batata</string>
+    <string name="title_activity_informacao">Information</string>
+    <string name="title_activity_sobre">About</string>
+
+
+</resources>

@@ -1,0 +1,371 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.fiuzasoft.fiuza.cultivos.Alface"
+    android:background="#CAFF95"
+    android:id="@+id/ac_alface">
+
+    <LinearLayout
+        android:paddingTop="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#0f5409" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView24"
+                android:src="@drawable/ic_arrow_back_24dp"
+                android:onClick="volta"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CULTIVO DE ALFACE"
+                android:textColor="#FFFFFF"
+                android:textSize="19dp"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:background="#CAFF95" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:weightSum="1"
+                android:background="#FFFFFF" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="153dp"
+                    android:id="@+id/imageView4"
+                    android:src="@drawable/alface"
+                    android:layout_weight="0.22"
+                    android:layout_margin="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99CC32" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="ALFACE"
+                    android:id="@+id/textViewAcelga"
+                    android:textStyle="bold"
+                    android:textColor="#173A13"
+                    android:textSize="24dp"
+                    android:layout_gravity="center" />
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imageView5"
+                    android:layout_gravity="center"
+                    android:src="@drawable/info"
+                    android:layout_marginTop="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="INFORMAÇÕES"
+                    android:textStyle="bold"
+                    android:textColor="#173A13"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="A alface é uma cultura plantada e consumida em todo o território brasileiro, mesmo com as diferenças climáticas e os hábitos de consumo. Por esta razão, é uma das hortaliças mais cultivadas em hortas domésticas. Pode ser plantado o ano todo, dependendo da cultivar, sendo as folhas o produto consumido."
+                    android:id="@+id/textView41"
+                    android:textColor="#173A13"
+                    android:fontFamily="arial"
+                    android:layout_margin="6dp"
+                    android:gravity="left"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#173A13" >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imageViewBeneficio"
+                    android:layout_gravity="center"
+                    android:src="@drawable/beneficio"
+                    android:layout_marginTop="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Beneficios"
+                    android:id="@+id/textView9"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Minerais:"
+                    android:id="@+id/textViewMinerais"
+                    android:textColor="#FFFFFF"
+                    android:layout_margin="4dp"
+                    android:textStyle="italic"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Ferro, Cálcio"
+                    android:id="@+id/textView42"
+                    android:textColor="#FFFFFF"
+                    android:layout_margin="6dp"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Vitaminas: A, B, C, E"
+                    android:id="@+id/textView18"
+                    android:textColor="#FFFFFF"
+                    android:layout_margin="6dp"
+                    android:layout_gravity="center"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Dicas"
+                    android:id="@+id/textView7"
+                    android:textColor="#173A13"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imageViewPlantil"
+                    android:layout_gravity="center"
+                    android:src="@drawable/plantil"
+                    android:layout_marginTop="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Plantil / Semeadura"
+                    android:id="@+id/textView10"
+                    android:textStyle="bold"
+                    android:textColor="#173A13"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Semear de modo que a base das folhas fique acima do solo (evita apodrecimento). Evitar semear em dias muito quentes."
+                    android:textColor="#173A13"
+                    android:id="@+id/textView43"
+                    android:layout_margin="6dp"
+                    android:gravity="left"/>
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="173dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.22"
+                    android:src="@drawable/img2" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Espaçamento: 25cm -Profundidade:1cm"
+                    android:textColor="#173A13"
+                    android:id="@+id/textView43x"
+                    android:layout_margin="6dp"
+                    android:gravity="left"/>
+
+
+                <ImageView
+                    android:id="@+id/imageView10x"
+                    android:layout_width="wrap_content"
+                    android:layout_height="173dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.22"
+                    android:src="@drawable/img1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#173A13" >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imageViewCuidado"
+                    android:layout_gravity="center"
+                    android:src="@drawable/cuidado"
+                    android:layout_marginTop="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Cuidados"
+                    android:id="@+id/textView12"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:gravity="left"
+                    android:text="O solo deve ser mantido sempre úmido e a planta deve ficar em um local com boa exposição solar com no minimo 2 Hrs de exposição. Realizar manutenção removendo plantas invasoras para não haver perda de nutrientes."
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#FFFFFF" />
+
+                <ImageView
+                    android:id="@+id/imageView11x"
+                    android:layout_width="wrap_content"
+                    android:layout_height="173dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.22"
+                    android:src="@drawable/img3" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imageViewColheita"
+                    android:layout_gravity="center"
+                    android:src="@drawable/colheita_icon"
+                    android:layout_marginTop="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Colheita"
+                    android:id="@+id/textViewColheita"
+                    android:textStyle="bold"
+                    android:textColor="#173A13"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:text="45 - 90 Dias"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#173A13"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Cortar a alface cerca de 2,5cm acima de sua raiz. Pois nascerá uma nova folha depois de alguns dias. Colheitas periódicas encorajam um novo crescimento. "
+                    android:id="@+id/textView14"
+                    android:textColor="#173A13"
+                    android:layout_gravity="center" />
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="173dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.22"
+                    android:src="@drawable/img10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#FFFFFF"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

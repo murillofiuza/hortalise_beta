@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.fiuzasoft.fiuza.hortalise_beta.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="cultivo"
+        android:src="@drawable/background_index">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/background_index"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/background_index"
+        android:onClick="cultivo"
+        android:background="#bfffe0">
+
+        <ImageView
+
+            android:layout_marginLeft="60dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_menu_cultivo"
+            android:padding="10dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#bfffe0"
+            android:padding="10dp"
+            android:text="Cultivos"
+            android:textAlignment="center"
+            android:paddingLeft="20dp"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/background_index"
+        android:onClick="praga">
+
+        <ImageView
+            android:layout_marginLeft="60dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_menu_praga"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Pragas"
+            android:textAlignment="center"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/background_index"
+        android:onClick="projeto"
+        android:background="#bfffe0">
+
+        <ImageView
+            android:layout_marginLeft="60dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView32"
+
+            android:src="@drawable/ic_menu_manage"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#bfffe0"
+            android:padding="10dp"
+            android:text="Projetos"
+            android:textAlignment="center"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/background_index"
+        android:onClick="informacao">
+
+        <ImageView
+            android:layout_marginLeft="60dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_menu_informacao"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Informações"
+            android:textAlignment="center"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/background_index"
+        android:onClick="sobre"
+        android:background="#bfffe0">
+
+        <ImageView
+            android:layout_marginLeft="60dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_menu_sobre"
+            />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#bfffe0"
+            android:padding="10dp"
+            android:text="Sobre"
+            android:textAlignment="center"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cultivo"
+            android:icon="@drawable/ic_menu_cultivo"
+            android:title="Cultivo" />
+        <item
+            android:id="@+id/nav_praga"
+            android:icon="@drawable/ic_menu_praga"
+            android:title="Praga" />
+        <item
+            android:id="@+id/nav_projeto"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Projetos" />
+
+    </group>
+
+    <item android:title="Outros">
+        <menu>
+            <item
+            android:id="@+id/nav_informacao"
+            android:icon="@drawable/ic_menu_informacao"
+            android:title="Informações" />
+            <item
+                android:id="@+id/nav_sobre"
+                android:icon="@drawable/ic_menu_sobre"
+                android:title="Sobre" />
+
+        </menu>
+    </item>
+
+</menu>

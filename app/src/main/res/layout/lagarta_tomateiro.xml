@@ -1,0 +1,217 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    tools:context="br.com.fiuzasoft.hortalise.LagartaTomateiro"
+    android:background="#CAFF95"
+    android:id="@+id/ac_abobora">
+
+    <LinearLayout
+        android:paddingTop="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#0f5409" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView28"
+                android:src="@drawable/ic_arrow_back_24dp"
+                android:onClick="volta"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LAGARTA TOMATEIRO"
+                android:textColor="#FFFFFF"
+                android:textSize="19dp"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+
+            android:background="#CAFF95" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:weightSum="1"
+                android:background="#FFFFFF" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="153dp"
+                    android:id="@+id/imageView4"
+                    android:src="@drawable/lagarta_tomateiro"
+                    android:layout_weight="0.22"
+                    android:layout_margin="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99CC32" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Lagarta do tomate"
+                    android:id="@+id/textViewAbobora"
+                    android:textStyle="bold"
+                    android:textColor="#173A13"
+                    android:textSize="24dp"
+                    android:layout_gravity="center" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/imageView9"
+                    android:src="@drawable/info"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="INFORMAÇÕES"
+                    android:textStyle="bold"
+                    android:textColor="#173A13"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="1dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Você conhece essas lagartas que atacam os tomateiros? Elas são chamadas de Manduca sexta ou Manduca quinquemaculata e são a fase larval de certas mariposas. Elas são tão famintas que devoram as folhas e muitos frutos quando ainda verdes! As mariposas colocam os ovos na superfície interna das folhas, semelhantes a imagem ao lado. Não gostam da luz direta e, normalmente, ao longo do dia, ficam nas partes mais internas da planta e vão para as folhas e frutos externos ao final do dia e decorrer da noite. Vai correndo comprar pilhas pra lanterna!
+
+Depois de um tempo, as adultas, rechonchudas e satisfeitas lagartas vão se encolhendo para se prepararem para a transformação em um casulo e gerar uma nova mariposa.
+
+Essas lagartas atingem especialmente as plantas de tomate e de tabaco e, dependendo do tamanho da planta, uma única lagarta pode devorar praticamente toda a planta.
+
+As imagens desse post são de tomateiros, com tomates estavam com buracos:"
+                    android:id="@+id/textView41"
+                    android:textColor="#173A13"
+                    android:fontFamily="arial"
+                    android:layout_margin="6dp"
+                    android:gravity="center"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#173A13" >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Então, com uma dose de paciência no final da tarde fui lá procurar essas praguinhas. Encontrei somente essa da imagem ao lado e, no outro dia, eles acharam outras na superfície interna das folhas. Ficamos um tempo embasbacados pela beleza da lagarta.
+
+E veja as fotos das que eles acharam no outro dia, na parte interna das folhas:"
+                    android:id="@+id/textView42"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Imagem dos tomates"
+                    android:id="@+id/textView18"
+                    android:textColor="#FFFFFF"
+                    android:layout_margin="6dp"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Imagem da Lagarta"
+                    android:id="@+id/textViewImg"
+                    android:textColor="#FFFFFF"
+                    android:layout_margin="6dp"
+                    android:layout_gravity="center"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF" >
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Pensaram: pronto, se esses ovos eclodirem, estamos fritos! Mas, na realidade, não são ovos e não são das próprias lagartas. Esses negocinhos brancos sobre o corpo são pupas de uma vespa parasita, da família Braconidae.
+
+Uma vespa escolhe uma lagarta saudável e gordinha, deposita sutilmente dezenas de ovos sob a pele dela e assim que esses ovos eclodirem dentro da lagarta, as larvas da vespa começam a comer a musculatura e vísceras dela, mantendo os órgãos vitais seguros para que o hospedeiro não morra rapidamente, encerrando o próprio ciclo. Essas larvas se desenvolvem dentro da lagarta e, quando adultas, vão furar novamente a pele dela e criar sobre a superfície diversos casulos, para permanecerem por ali mais um período. Quando sairem do casulo, a lagarta morre em breve e as vespas saem por aí a se divertirem e a buscarem o futuro hospedeiro de seus ovos.
+
+Ciclo cruel e, talvez, salvador dos seus tomates."
+                    android:textColor="#173A13"
+                    android:id="@+id/textView43"
+                    android:layout_margin="6dp"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#FFFFFF"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

@@ -1,0 +1,188 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    tools:context="br.com.fiuzasoft.hortalise.LagartaTomateiro"
+    android:background="#CAFF95"
+    android:id="@+id/ac_abobora">
+
+
+    <LinearLayout
+        android:paddingTop="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#0f5409" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView28"
+                android:src="@drawable/ic_arrow_back_24dp"
+                android:onClick="volta"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RECEITA"
+                android:textColor="#FFFFFF"
+                android:textSize="19dp"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+
+            android:background="#CAFF95" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:weightSum="1"
+                android:background="#FFFFFF" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="153dp"
+                    android:id="@+id/imageView4"
+                    android:src="@drawable/receita_pesticida"
+                    android:layout_weight="0.22"
+                    android:layout_margin="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99CC32" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Receita para acabar com pragas na Horta"
+                    android:id="@+id/textViewAbobora"
+                    android:textStyle="bold"
+                    android:textColor="#173A13"
+                    android:textSize="24dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/imageView9"
+                    android:src="@drawable/info"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="INFORMAÇÕES"
+                    android:textStyle="bold"
+                    android:textColor="#173A13"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="1dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Quem tem uma horta, mesmo que pequena, colhe saúde diariamente. As hortaliças e ervas plantadas em casa são mais fresquinhas, baratas e, o melhor de tudo, são totalmente livres de agrotóxicos. O grande problema é que algumas pragas, como o pulgão e as lagartas, insistem em destruir as hortas caseiras e ninguém quer recorrer a produtos químicos para mantê-las afastadas.
+                As pragas nas hortaliças são muito comuns e a melhor forma é evitar, protegendo sua horta com telas que impeçam que moscas se aproximem, mas se não for possível, o combate com produtos naturais vai ajudar no controle das pragas. Desta maneira você estará fazendo o controle ecológico na sua horta, acabando com o risco de pragas e doenças na suas verduras.
+A solução, surpreendentemente, pode estar guardada em nossa geladeira. A cebola, tão consumida pelos brasileiros, também é indicada para acabar com as pragas das hortas. Veja como preparar a receita caseira que combate essas pestes de forma natural e econômica!"
+                    android:id="@+id/textView41"
+                    android:textColor="#173A13"
+                    android:fontFamily="arial"
+                    android:layout_margin="6dp"
+                    android:gravity="center"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#173A13" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Receita:"
+                    android:textColor="#173A13"
+                    android:id="@+id/textView43"
+                    android:layout_margin="6dp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Você vai precisar de:
+
+½ kg de cebolas
+10 litros de água
+Modo de preparo:
+
+Corte as cebolas em quatro partes;
+Coloque-as em uma panela grande e cubra com a água;
+Leve ao fogo brando e deixe cozinhar por trinta minutos;
+Espere amornar, coe e guarde a mistura em um borrifador.
+Aplicação
+
+Com a ajuda do borrifador, espalhe o preparado de cebola pelas plantas da horta, principalmente naquelas mais atingidas. Repita a operação a cada quinze dias para acabar definitivamente com os ácaros, pulgões, lagartas, mineiros das folhas, mosca branca e outros bichinhos que danificam a horta."
+                    android:id="@+id/textView42"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="center"/>
+
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#FFFFFF"/>
+
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.fiuzasoft.fiuza.cultivos.Alface"
+    android:background="#CAFF95">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+        >
+
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="2700dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:background="#CAFF95"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:showIn="@layout/app_bar_main"
+            tools:context="br.com.fiuzasoft.hortalise.LagartaTomateiro"
+            >
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                          android:orientation="horizontal"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:padding="4dp"
+                          android:weightSum="1"
+                          android:id="@+id/linearLayout2"
+                          android:foregroundGravity="center"
+                          android:background="#D9FFB3"
+                          android:gravity="center">
+
+
+                <ImageView
+                    android:layout_width="293dp"
+                    android:layout_height="170dp"
+                    android:id="@+id/imageView3"
+                    android:src="@drawable/horta_vertical1"
+                    android:gravity="center" />
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Como fazer uma horta vertical caseira?"
+                android:id="@+id/textViewAface"
+                android:layout_below="@+id/linearLayout2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:textStyle="bold"
+                android:textColor="#376543"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Informações"
+                android:id="@+id/textView"
+                android:layout_marginTop="37dp"
+                android:textStyle="bold"
+                android:textColor="#376543"
+                android:layout_below="@+id/textViewAface"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Não importa o quão pequeno é o imóvel em que você vive, você pode desenvolver seu espaço verde através da construção de uma horta vertical. Com a demanda por jardins em cidades densamente povoadas, centros de jardinagem e fabricantes criaram kits que permitem cultivar para cima, se você não pode cultivar do lado de fora de sua casa.
+
+As etapas abaixo reúnem todo o processo que você precisa para planejar, montar e manter sua horta vertical da melhor forma possível."
+                android:id="@+id/textView6"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="5dp"
+                android:textColor="#376543" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Analise seu espaço"
+                android:id="@+id/textView22"
+                android:layout_marginTop="39dp"
+                android:textStyle="bold"
+                android:textColor="#376543"
+                android:layout_below="@+id/textView6"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Decida onde você vai plantar seu horta vertical. Se você tiver uma parede vazia, você tem o espaço perfeito para construir sua horta. Usando uma fita métrica, anote a altura e a largura do espaço antes de visitar uma loja. Tenha em mente quais as plantas que vão ocupar o espaço, por isso, se a passagem é bastante estreita, é recomendável que você encontre outro lugar em sua propriedade para o jardim. A ideia é que se você tem uma parede que é feia, uma horta vertical pode deixá-la muito mais bonita e a menos que você queira construir um grande jardim ou árvores verticais, você não precisa se preocupar com a carga de peso na parede.
+
+Pense nas plantas
+
+As plantas que você deve escolher dependerá da parede que você escolher e quanta luz solar que recebe. No entanto, se você gostaria de tentar determinados vegetais, em seguida, escolha uma parede que irá proporcionar as melhores condições de crescimento para eles."
+                android:id="@+id/textView23"
+                android:layout_alignParentEnd="true"
+                android:textColor="#376543"
+                android:layout_below="@+id/textView22"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Anexe plástico na armação que você escolher para sua horta vertical. Alguns kits já vem com o plástico incluso. O plástico serve como um suporte para a horta, além de manter a água longe da parede. Folhas de PVC são recomendadas. Se você quiser tentar isso em uma parede de madeira, você vai precisar para ventilar a parte traseira da madeira."
+                android:id="@+id/textView24"
+                android:textColor="#376543"
+                android:layout_below="@+id/textView25"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Preparando a parede para a sua horta"
+                android:id="@+id/textView25"
+                android:textStyle="bold"
+                android:textColor="#376543"
+                android:layout_marginTop="36dp"
+                android:layout_below="@+id/textView23"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Construa o sistema modular"
+                android:id="@+id/textView26"
+                android:textStyle="bold"
+                android:textColor="#376543"
+                android:layout_marginTop="39dp"
+                android:layout_below="@+id/textView24"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Dependendo do jardim vertical que você escolher, você terá diferentes métodos de construção. Alguns das formas mais populares para hortas verticais são:
+
+Bolsos
+
+Composto por um material respirável e reciclado, semelhante ao feltro, estas bolsas podem durar até 20 anos. Argolas de metal tornam fácil de anexar a uma parede com parafusos. Podem ser encontradas em kits prontos ou você mesmo pode fazer o seu, seja começando do zero ou usando um guardador de sapatos de parede.
+
+Se as plantas são de fácil acesso, você pode sempre contar com sua mangueira de confiança ou regador para regar sua horta. Mas para bolsos e bandejas mais altas podem ser mais facilmente acessados ao instalar um sistema automático de irrigação por gravidade. Basta conectar o sistema a uma mangueira e executar as linhas de gotejamento através dos canais abertos nas costas dos bolsos ou bandejas.
+
+Bandejas
+
+Semelhante aos “berçários” para mudas de plantas, estas bandejas plásticas retangulares são divididas em células, num ângulo de 30 graus com furos inferiores que promovem a drenagem e aeração. Cada bandeja deve ter um suporte para a montagem. São vendidas em kits, mas você pode fazer sua própria prateleira de bandejas.
+
+Cabides de vasos
+
+Estes suportes são fixados na parte de trás de vasos e praticamente desaparecem quando conectados a uma parede ou muro. Projetado para suportar ventos fortes, cada cabide pode suportar até 100 quilos. Qualquer coisa que você normalmente iria colocar em um vaso é cabível de ser cultivado nesse sistema, incluindo ervas de cozinha e até algumas leguminosas."
+                android:id="@+id/textView27"
+                android:textColor="#376543"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView26"
+                android:layout_centerHorizontal="true"/>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:text="Voltar"
+        android:id="@+id/buttonVoltar"
+        android:layout_alignParentTop="true"
+        android:onClick="volta"
+        android:textSize="10dp" />
+</RelativeLayout>
+
+
+

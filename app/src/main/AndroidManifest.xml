@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.fiuzasoft.fiuza.hortalise_beta"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CultivoActivity"
+            android:label="@string/title_activity_cultivo"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN"/>
+
+            <category android:name="android.intent.category.LAUNCHER"/>
+        </intent-filter>
+
+        <activity
+            android:name=".PragaActivity"
+            android:label="@string/title_activity_praga"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ProjetoActivity"
+            android:label="@string/title_activity_projeto"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".InformacaoActivity"
+            android:label="@string/title_activity_informacao"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".SobreActivity"
+            android:label="@string/title_activity_sobre"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.fiuzasoft.fiuza.cultivos.Acelga"
+            android:label="@string/title_activity_acelga"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.fiuzasoft.fiuza.cultivos.Alface"
+            android:label="@string/title_activity_alface"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.fiuzasoft.fiuza.cultivos.Alho"
+            android:label="@string/title_activity_alho"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.fiuzasoft.fiuza.cultivos.Batata"
+            android:label="@string/title_activity_batata"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.fiuzasoft.fiuza.cultivos.Berinjela"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.fiuzasoft.fiuza.cultivos.Beterraba"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.fiuzasoft.fiuza.cultivos.Cebola"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.fiuzasoft.fiuza.cultivos.Cebolinha"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.fiuzasoft.fiuza.cultivos.Cenoura"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.fiuzasoft.fiuza.cultivos.Chicoria"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.fiuzasoft.fiuza.cultivos.Chuchu"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.fiuzasoft.fiuza.cultivos.Coentro"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.fiuzasoft.fiuza.cultivos.Couve"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.fiuzasoft.fiuza.cultivos.Feijao"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.fiuzasoft.fiuza.cultivos.Gengibre"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.fiuzasoft.fiuza.cultivos.Jilo"/>
+        <activity android:name="com.fiuzasoft.fiuza.cultivos.Abobora"
+                  android:label="@string/title_activity_abobora"
+                  android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name="com.fiuzasoft.fiuza.pragas.LagartaTomateiro"
+                  android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name="com.fiuzasoft.fiuza.pragas.PragaDoencaRadiculares"
+                  android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name="com.fiuzasoft.fiuza.pragas.ReceitaAcabarPraga"
+                  android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name="com.fiuzasoft.fiuza.projetos.HortaVerticalPet1"
+                  android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name="com.fiuzasoft.fiuza.projetos.PreparoHortaVertical"
+                  android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name="com.fiuzasoft.fiuza.informacao.CompostagemActivity"
+                  android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name="com.fiuzasoft.fiuza.informacao.TipoSoloActivity"
+                  android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+    </application>
+
+</manifest>
